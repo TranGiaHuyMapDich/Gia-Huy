@@ -8,7 +8,7 @@ function Login() {
     <div className="login-page">
       <div className="login-container">
         <div className="login-form">
-          <h2>Hi Cac Cau</h2>
+          <h2>Login</h2>
           <p>Doesn't have an account yet? <a href="#sign-up">Sign Up</a></p>
           <form>
             <label>Email Address</label>
