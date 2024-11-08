@@ -1,0 +1,119 @@
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #CEC4F0;
+}
+
+.login-container {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  width: 100%;
+}
+
+.login-form {
+  padding: 40px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-form p {
+  color: #666;
+}
+
+.login-form a {
+  color: #8e2de2;
+  text-decoration: none;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 20px;
+  color: #333;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+ 
+}
+.remember-me input
+{
+  margin-right: 10px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #8e2de2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.or-divider {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.social-login button {
+  padding: 10px;
+  width: 48%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google-login {
+  background-color: #db4437;
+  color: white;
+}
+
+.facebook-login {
+  background-color: #3b5998;
+  color: white;
+}
+
+.illustration {
+  width: 50%;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.illustration img
+{
+  width: 400px;
+  height: 500px;
+}
